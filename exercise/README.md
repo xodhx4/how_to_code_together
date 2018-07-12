@@ -85,3 +85,30 @@
   - output
     : 4
 
+________________________
+
+## 해야할 일
+
+1. 조원의 한 사람이 이 github repo를 fork 합니다.
+
+2. repo collaborator에 조원들을 추가한다.
+
+3. fork한 repo를 로컬컴퓨터에 클론한다.
+
+4. 자신의 이름으로 branch를 만든다.
+
+   ```sh
+   git checkout -b taeoh
+   ```
+
+5. /exercise 에서 각자 자신이 맡은 function을 완성한 후 test 결과를 살펴봅니다.
+
+   ```sh
+   pytest
+   # 만약 pytest가 깔려있지 않다면 pip install pytest로 설치해주세요
+   ```
+
+6. 자신이 맡은 함수가 잘 작동한다면 master branch에 merge 합니다.
+
+7. 마지막에 master branch에서 모든 pytest가 통과하였는지 확인합니다.
+
